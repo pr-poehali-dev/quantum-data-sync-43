@@ -4,44 +4,44 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">FOOD*FACTORY</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Рестораны</a>
+          <a href="#">Доставка</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Заказать</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ЕДА КАК
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              НА <span>Заводе</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Фуд-фэктори — это конвейер качества. Каждый бургер, каждый хот-дог, каждый соус — без компромиссов. Россия, мы накормим тебя правильно.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Заказать сейчас
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть меню
               </button>
             </div>
           </div>
-          <div className="hero-img">
+          <div className="hero-img" style={{ background: `url("https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/db6d539d-ec55-41af-be6d-ae974dd9a809.jpg") center center / cover` }}>
             <div className="sticker">
               СВЕЖАК
               <br />
               КАЖДЫЙ ДЕНЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #РОССИЯ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
               ОГОНЬ
@@ -51,14 +51,14 @@ export default function Index() {
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * БУРГЕРЫ БЕЗ КОМПРОМИССОВ * СОЧНО И МОЩНО * FOOD FACTORY RUSSIA * ДОСТАВКА ПО ВСЕЙ СТРАНЕ * КАЧЕСТВО НА ПОТОКЕ *
+            БУРГЕРЫ БЕЗ КОМПРОМИССОВ * СОЧНО И МОЩНО * FOOD FACTORY RUSSIA * ДОСТАВКА ПО ВСЕЙ СТРАНЕ * КАЧЕСТВО НА ПОТОКЕ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">ХИТ ЗАВОДА</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -73,8 +73,8 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит продаж</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/db6d539d-ec55-41af-be6d-ae974dd9a809.jpg"
+                alt="Factory Smash Burger"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Factory Smash</h3>
+                  <span className="price">490 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Двойная котлета смэш, фирменный соус, карамелизованный лук, маринованный перец на бриоши.
                 </p>
               </div>
             </div>
@@ -97,11 +97,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Новинка
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/8adfd877-5361-4923-b285-5cf2959c4e45.jpg"
+                alt="Chicken Factory"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Chicken Factory</h3>
+                  <span className="price">420 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Хрустящая курица, острый соус, коул-слоу и маринованные огурцы.</p>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/6f2a461c-a54d-4070-9b84-ae15c9ac1d78.jpg"
+                alt="Factory Fries"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Factory Fries</h3>
+                  <span className="price">190 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Золотистый картофель фри с фирменными соусами на выбор — классика, спайси или сырный.
                 </p>
               </div>
             </div>
@@ -150,45 +150,44 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">ЭТО НЕ ПРОСТО ЕДА.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Food Factory Russia — это целая культура. Уличный фастфуд, поднятый до уровня искусства. Открытая кухня, живой огонь и команда, которая горит своим делом. Приходи голодным — уходи с улыбкой.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
             </button>
           </div>
-          <div className="vibe-img"></div>
+          <div className="vibe-img" style={{ background: `url("https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/ebc0e831-c0a8-418f-9e4a-3c8920de919f.jpg") center center / cover` }}></div>
         </section>
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @FOODFACTORYRUSSIA
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/db6d539d-ec55-41af-be6d-ae974dd9a809.jpg"
+                alt="Food Factory 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/8adfd877-5361-4923-b285-5cf2959c4e45.jpg"
+                alt="Food Factory 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/6f2a461c-a54d-4070-9b84-ae15c9ac1d78.jpg"
+                alt="Food Factory 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://cdn.poehali.dev/projects/a5f4cc91-65d1-4474-aaa3-e89d5dc7e55e/files/ebc0e831-c0a8-418f-9e4a-3c8920de919f.jpg"
+                alt="Food Factory 4"
               />
             </div>
           </div>
@@ -197,9 +196,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">FOOD*FACTORY</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Качество на потоке. Вкус без компромиссов. Food Factory Russia — кормим страну правильно.
           </p>
         </div>
         <div className="footer-links">
@@ -217,12 +216,12 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Рестораны
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Доставка
               </a>
             </li>
           </ul>
@@ -230,16 +229,16 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн-Чт: 10:00 - 23:00</li>
+            <li>Пт-Сб: 10:00 - 02:00</li>
+            <li>Вс: 10:00 - 23:00</li>
+            <li>Без выходных</li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <span>2025 FOOD FACTORY RUSSIA</span>
+          <span>КАЧЕСТВО НА ПОТОКЕ</span>
+          <span>VK / TG / YT</span>
         </div>
       </footer>
     </>
